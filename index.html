@@ -1,0 +1,1548 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Cek Khodam Online, Cek Khodam, Cek khodam online dengan nama, cek khodam online gratis, link cek khodam online, Situs Online Cek Khodam, Cek Khodam, Khodam Online">
+  <meta name="keywords" content="Cek Khodam Online, Cek Khodam, Cek khodam online dengan nama, Cek khodam online gratis, Link cek khodam online, Situs Online Cek Khodam, Khodam Online">
+  <title>Cek Khodam Online | Karya Eka Syarif Maulana</title>
+  
+  <!-- Favicon -->
+  <link rel="shortcut icon" type="image/png" href="https://up.mrestu.my.id/u/59940ce4.jpg" />
+  <link rel="icon" href="https://up.mrestu.my.id/u/59940ce4.jpg" type="image/x-icon">
+  
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap" rel="stylesheet">
+  
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  
+  <!-- Custom CSS -->
+  <style>
+    :root {
+      /* Color Palette */
+      --primary: #8e44ad;
+      --primary-dark: #7d3c98;
+      --secondary: #3498db;
+      --accent: #f1c40f;
+      --dark: #2c3e50;
+      --light: #ecf0f1;
+      --success: #2ecc71;
+      --danger: #e74c3c;
+      --warning: #f39c12;
+      --info: #1abc9c;
+      
+      /* Typography */
+      --font-main: 'Poppins', sans-serif;
+      --font-special: 'Caveat', cursive;
+      
+      /* Spacing */
+      --spacing-xs: 0.5rem;
+      --spacing-sm: 1rem;
+      --spacing-md: 1.5rem;
+      --spacing-lg: 2rem;
+      --spacing-xl: 2.5rem;
+      
+      /* Borders */
+      --border-radius-sm: 10px;
+      --border-radius-md: 15px;
+      --border-radius-lg: 20px;
+      
+      /* Shadows */
+      --shadow-soft: 0 5px 15px rgba(0, 0, 0, 0.1);
+      --shadow-medium: 0 10px 20px rgba(0, 0, 0, 0.15);
+      --shadow-hard: 0 15px 30px rgba(0, 0, 0, 0.2);
+      
+      /* Animation */
+      --transition-fast: 0.2s;
+      --transition-normal: 0.3s;
+      --transition-slow: 0.5s;
+    }
+
+    /* Reset and Base Styles */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: var(--font-main);
+      background: linear-gradient(135deg, var(--primary), var(--secondary));
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      color: var(--dark);
+      position: relative;
+      overflow-x: hidden;
+      padding: var(--spacing-md);
+    }
+
+    body::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100" height="100" opacity="0.05"><text x="50%" y="50%" font-family="Arial" font-size="24" text-anchor="middle" dominant-baseline="middle" fill="white">✨</text></svg>');
+      opacity: 0.1;
+      z-index: -1;
+    }
+
+    /* Container Styles */
+    .container {
+      background: rgba(255, 255, 255, 0.9);
+      backdrop-filter: blur(10px);
+      border-radius: var(--border-radius-lg);
+      box-shadow: var(--shadow-hard);
+      width: 90%;
+      max-width: 500px;
+      padding: var(--spacing-xl);
+      transition: all var(--transition-normal);
+      position: relative;
+      overflow: hidden;
+      margin-bottom: var(--spacing-md);
+    }
+
+    .container::before {
+      content: "";
+      position: absolute;
+      top: -50%;
+      left: -50%;
+      width: 200%;
+      height: 200%;
+      background: linear-gradient(45deg, transparent, rgba(255, 255, 255, 0.2), transparent);
+      transform: rotate(45deg);
+      animation: shine 6s infinite;
+      z-index: -1;
+    }
+
+    @keyframes shine {
+      0% { transform: translateX(-100%) rotate(45deg); }
+      20%, 100% { transform: translateX(100%) rotate(45deg); }
+    }
+
+    /* Typography */
+    .title {
+      text-align: center;
+      margin-bottom: var(--spacing-md);
+      position: relative;
+    }
+
+    .title h1 {
+      font-size: 2.2rem;
+      color: var(--primary);
+      margin-bottom: var(--spacing-xs);
+      letter-spacing: 1px;
+      font-weight: 700;
+    }
+
+    .title::after {
+      content: "";
+      display: block;
+      width: 60px;
+      height: 4px;
+      background: var(--accent);
+      margin: 0.3rem auto;
+      border-radius: 2px;
+    }
+
+    .subtitle {
+      text-align: center;
+      font-size: 1rem;
+      color: #666;
+      margin-bottom: var(--spacing-lg);
+    }
+
+    /* Form Elements */
+    .input-group {
+      position: relative;
+      margin-bottom: var(--spacing-md);
+    }
+
+    .input-group input {
+      width: 100%;
+      padding: var(--spacing-sm) var(--spacing-md);
+      font-size: 1rem;
+      border: none;
+      border-radius: var(--border-radius-sm);
+      background: rgba(255, 255, 255, 0.8);
+      box-shadow: var(--shadow-soft);
+      transition: all var(--transition-normal);
+      border: 2px solid transparent;
+    }
+
+    .input-group input:focus {
+      outline: none;
+      box-shadow: 0 5px 15px rgba(142, 68, 173, 0.2);
+      border-color: var(--primary);
+    }
+
+    .input-group input::placeholder {
+      color: #aaa;
+    }
+
+    .input-group .icon {
+      position: absolute;
+      right: 15px;
+      top: 50%;
+      transform: translateY(-50%);
+      color: var(--primary);
+    }
+
+    /* Category Selector */
+    .category-selector {
+      margin-bottom: var(--spacing-md);
+    }
+
+    .category-title {
+      font-size: 1rem;
+      margin-bottom: var(--spacing-xs);
+      color: #666;
+    }
+
+    .category-options {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+    }
+
+    .category-option {
+      background: rgba(255, 255, 255, 0.8);
+      border: 2px solid transparent;
+      border-radius: var(--border-radius-sm);
+      padding: 6px 12px;
+      font-size: 0.9rem;
+      cursor: pointer;
+      transition: all var(--transition-normal);
+    }
+
+    .category-option:hover {
+      background: rgba(255, 255, 255, 1);
+      transform: translateY(-2px);
+    }
+
+    .category-option.active {
+      background: var(--primary);
+      color: white;
+      border-color: var(--primary-dark);
+    }
+
+    /* Buttons */
+    .btn {
+      display: block;
+      width: 100%;
+      padding: var(--spacing-sm);
+      background: linear-gradient(to right, var(--primary), var(--secondary));
+      color: white;
+      border: none;
+      border-radius: var(--border-radius-sm);
+      font-size: 1.1rem;
+      font-weight: 600;
+      letter-spacing: 0.5px;
+      cursor: pointer;
+      transition: all var(--transition-normal);
+      box-shadow: var(--shadow-soft);
+      position: relative;
+      overflow: hidden;
+    }
+
+    .btn::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: -100%;
+      width: 100%;
+      height: 100%;
+      background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.2), transparent);
+      transition: all 0.4s;
+    }
+
+    .btn:hover {
+      transform: translateY(-3px);
+      box-shadow: var(--shadow-medium);
+    }
+
+    .btn:hover::before {
+      left: 100%;
+    }
+
+    .btn:active {
+      transform: translateY(0);
+    }
+
+    .btn-secondary {
+      background: linear-gradient(to right, var(--secondary), var(--primary));
+    }
+
+    .btn-sm {
+      padding: 0.5rem;
+      font-size: 0.9rem;
+      font-weight: 500;
+    }
+
+    /* Result Section */
+    .hasil {
+      display: none;
+      text-align: center;
+    }
+
+    .hasil h3 {
+      font-size: 1.3rem;
+      color: var(--dark);
+      margin-bottom: var(--spacing-md);
+    }
+
+    .khodam-result {
+      background: linear-gradient(135deg, #5b247a, #1b1464);
+      color: white;
+      padding: var(--spacing-lg);
+      border-radius: var(--border-radius-md);
+      margin-bottom: var(--spacing-md);
+      box-shadow: var(--shadow-medium);
+      position: relative;
+      overflow: hidden;
+      animation: pulse 2s infinite;
+    }
+
+    .result-animal {
+      background: linear-gradient(135deg, #27ae60, #2ecc71);
+    }
+
+    .result-ghost {
+      background: linear-gradient(135deg, #c0392b, #e74c3c);
+    }
+
+    .result-funny {
+      background: linear-gradient(135deg, #f39c12, #f1c40f);
+    }
+
+    @keyframes pulse {
+      0% { box-shadow: 0 0 0 0 rgba(91, 36, 122, 0.4); }
+      70% { box-shadow: 0 0 0 15px rgba(91, 36, 122, 0); }
+      100% { box-shadow: 0 0 0 0 rgba(91, 36, 122, 0); }
+    }
+
+    .khodam-result h1 {
+      font-size: 1.8rem;
+      font-family: var(--font-special);
+      letter-spacing: 1px;
+      margin: 0;
+    }
+
+    .khodam-icon {
+      position: absolute;
+      opacity: 0.1;
+      font-size: 6rem;
+      right: -15px;
+      bottom: -15px;
+      transform: rotate(-15deg);
+    }
+
+    .khodam-description {
+      margin-top: var(--spacing-sm);
+      font-size: 0.9rem;
+      opacity: 0.9;
+    }
+
+    .desc {
+      font-size: 0.9rem;
+      color: #666;
+      margin-bottom: var(--spacing-md);
+      line-height: 1.6;
+    }
+
+    /* Character Image */
+    .character-image {
+      width: 80px;
+      height: 80px;
+      margin: 0 auto var(--spacing-sm);
+      border-radius: 50%;
+      background-color: rgba(255, 255, 255, 0.2);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 2.5rem;
+    }
+
+    /* Social Sharing */
+    .social {
+      display: flex;
+      justify-content: center;
+      margin-top: var(--spacing-sm);
+      margin-bottom: var(--spacing-md);
+    }
+
+    .social a {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 40px;
+      height: 40px;
+      background: var(--primary);
+      color: white;
+      border-radius: 50%;
+      margin: 0 10px;
+      transition: all var(--transition-normal);
+      text-decoration: none;
+    }
+
+    .social a:hover {
+      transform: translateY(-3px);
+      background: var(--primary-dark);
+    }
+
+    /* Action Buttons */
+    .action-buttons {
+      display: flex;
+      gap: var(--spacing-sm);
+      margin-bottom: var(--spacing-md);
+    }
+
+    .action-buttons button {
+      flex: 1;
+    }
+
+    /* History Section */
+    .history-section {
+      display: none;
+      margin-top: var(--spacing-md);
+    }
+
+    .history-title {
+      font-size: 1.2rem;
+      margin-bottom: var(--spacing-xs);
+      color: var(--dark);
+      text-align: center;
+    }
+
+    .history-items {
+      max-height: 200px;
+      overflow-y: auto;
+      margin-bottom: var(--spacing-md);
+    }
+
+    .history-item {
+      background: rgba(255, 255, 255, 0.8);
+      border-radius: var(--border-radius-sm);
+      padding: var(--spacing-xs) var(--spacing-sm);
+      margin-bottom: 8px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .history-name {
+      font-weight: 500;
+    }
+
+    .history-result {
+      font-size: 0.9rem;
+      color: var(--primary);
+    }
+
+    /* Animations */
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    .fadeIn {
+      animation: fadeIn var(--transition-slow) ease forwards;
+    }
+
+    @keyframes shake {
+      0%, 100% { transform: translateX(0); }
+      10%, 30%, 50%, 70%, 90% { transform: translateX(-5px); }
+      20%, 40%, 60%, 80% { transform: translateX(5px); }
+    }
+
+    .shake-animation {
+      animation: shake 0.5s cubic-bezier(.36,.07,.19,.97) both;
+    }
+
+    /* Footer */
+    .footer {
+      text-align: center;
+      margin-top: var(--spacing-sm);
+      font-size: 0.8rem;
+      color: rgba(255, 255, 255, 0.7);
+    }
+
+    .footer a {
+      color: white;
+      text-decoration: none;
+      transition: all var(--transition-fast);
+    }
+
+    .footer a:hover {
+      text-decoration: underline;
+    }
+
+    /* Loader */
+    .loader-container {
+      display: none;
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(255, 255, 255, 0.8);
+      backdrop-filter: blur(5px);
+      border-radius: var(--border-radius-lg);
+      justify-content: center;
+      align-items: center;
+      z-index: 10;
+    }
+
+    .loader {
+      width: 50px;
+      height: 50px;
+      border: 4px solid rgba(0, 0, 0, 0.1);
+      border-left-color: var(--primary);
+      border-radius: 50%;
+      animation: rotate 1s linear infinite;
+    }
+
+    @keyframes rotate {
+      to { transform: rotate(360deg); }
+    }
+
+    /* Confetti */
+    .confetti {
+      position: fixed;
+      width: 10px;
+      height: 10px;
+      background-color: #f2d74e;
+      position: absolute;
+      top: 0;
+      opacity: 0;
+      animation: confetti 5s ease-in-out -2s infinite;
+      transform-origin: 0% 0%;
+    }
+
+    .confetti:nth-child(1) {
+      background-color: #f2d74e; left: 10%; animation-delay: 0;
+    }
+    .confetti:nth-child(2) {
+      background-color: #95c3de; left: 20%; animation-delay: -5s;
+    }
+    .confetti:nth-child(3) {
+      background-color: #ff9a91; left: 30%; animation-delay: -3s;
+    }
+    .confetti:nth-child(4) {
+      background-color: #f2d74e; left: 40%; animation-delay: -2.5s;
+    }
+    .confetti:nth-child(5) {
+      background-color: #95c3de; left: 50%; animation-delay: -4s;
+    }
+    .confetti:nth-child(6) {
+      background-color: #ff9a91; left: 60%; animation-delay: -6s;
+    }
+    .confetti:nth-child(7) {
+      background-color: #f2d74e; left: 70%; animation-delay: -1.5s;
+    }
+    .confetti:nth-child(8) {
+      background-color: #95c3de; left: 80%; animation-delay: -2s;
+    }
+    .confetti:nth-child(9) {
+      background-color: #ff9a91; left: 90%; animation-delay: -3.5s;
+    }
+    .confetti:nth-child(10) {
+      background-color: #f2d74e; left: 100%; animation-delay: -2.5s;
+    }
+
+    @keyframes confetti {
+      0% { transform: rotateZ(15deg) rotateY(0deg) translate(0, 0); opacity: 1; }
+      25% { transform: rotateZ(5deg) rotateY(360deg) translate(-5vw, 20vh); }
+      50% { transform: rotateZ(15deg) rotateY(720deg) translate(5vw, 60vh); }
+      75% { transform: rotateZ(5deg) rotateY(1080deg) translate(-10vw, 80vh); }
+      100% { transform: rotateZ(15deg) rotateY(1440deg) translate(10vw, 110vh); opacity: 0; }
+    }
+
+    /* Modal Styles */
+    .modal-overlay {
+      display: none;
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(0, 0, 0, 0.5);
+      backdrop-filter: blur(3px);
+      z-index: 100;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .modal {
+      background: white;
+      border-radius: var(--border-radius-md);
+      box-shadow: var(--shadow-hard);
+      width: 90%;
+      max-width: 450px;
+      padding: var(--spacing-lg);
+      position: relative;
+    }
+
+    .modal-close {
+      position: absolute;
+      top: 15px;
+      right: 15px;
+      background: none;
+      border: none;
+      font-size: 1.5rem;
+      cursor: pointer;
+      color: #aaa;
+      transition: color var(--transition-fast);
+    }
+
+    .modal-close:hover {
+      color: var(--danger);
+    }
+
+    .modal-title {
+      font-size: 1.5rem;
+      margin-bottom: var(--spacing-md);
+      color: var(--primary);
+      text-align: center;
+    }
+
+    .modal-content {
+      margin-bottom: var(--spacing-md);
+    }
+
+    /* Switch Styles */
+    .switch-container {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: var(--spacing-sm);
+    }
+
+    .switch-label {
+      font-size: 0.9rem;
+      color: #666;
+    }
+
+    .switch {
+      position: relative;
+      display: inline-block;
+      width: 50px;
+      height: 24px;
+    }
+
+    .switch input {
+      opacity: 0;
+      width: 0;
+      height: 0;
+    }
+
+    .slider {
+      position: absolute;
+      cursor: pointer;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background-color: #ccc;
+      transition: var(--transition-normal);
+      border-radius: 34px;
+    }
+
+    .slider:before {
+      position: absolute;
+      content: "";
+      height: 16px;
+      width: 16px;
+      left: 4px;
+      bottom: 4px;
+      background-color: white;
+      transition: var(--transition-normal);
+      border-radius: 50%;
+    }
+
+    input:checked + .slider {
+      background-color: var(--primary);
+    }
+
+    input:focus + .slider {
+      box-shadow: 0 0 1px var(--primary);
+    }
+
+    input:checked + .slider:before {
+      transform: translateX(26px);
+    }
+
+    /* Color Theme Selector */
+    .theme-selector {
+      display: flex;
+      justify-content: center;
+      gap: var(--spacing-xs);
+      margin-bottom: var(--spacing-md);
+    }
+
+    .theme-option {
+      width: 30px;
+      height: 30px;
+      border-radius: 50%;
+      cursor: pointer;
+      transition: all var(--transition-normal);
+      border: 2px solid transparent;
+    }
+
+    .theme-option:hover {
+      transform: scale(1.1);
+    }
+
+    .theme-option.active {
+      border-color: var(--dark);
+      transform: scale(1.1);
+    }
+
+    .theme-purple {
+      background: linear-gradient(135deg, #9b59b6, #8e44ad);
+    }
+
+    .theme-blue {
+      background: linear-gradient(135deg, #3498db, #2980b9);
+    }
+
+    .theme-green {
+      background: linear-gradient(135deg, #2ecc71, #27ae60);
+    }
+
+    .theme-red {
+      background: linear-gradient(135deg, #e74c3c, #c0392b);
+    }
+
+    .theme-dark {
+      background: linear-gradient(135deg, #34495e, #2c3e50);
+    }
+
+    /* Media Queries */
+    @media (max-width: 768px) {
+      .container {
+        padding: var(--spacing-md);
+        width: 90%;
+      }
+      
+      .title h1 {
+        font-size: 1.8rem;
+      }
+      
+      .khodam-result h1 {
+        font-size: 1.5rem;
+      }
+      
+      .btn {
+        padding: 0.8rem;
+        font-size: 1rem;
+      }
+    }
+
+    @media (max-width: 480px) {
+      .title h1 {
+        font-size: 1.5rem;
+      }
+      
+      .subtitle {
+        font-size: 0.9rem;
+      }
+      
+      .input-group input {
+        padding: 0.8rem 1rem;
+      }
+      
+      .social a {
+        width: 35px;
+        height: 35px;
+        margin: 0 5px;
+      }
+
+      .action-buttons {
+        flex-direction: column;
+      }
+    }
+
+    /* Dark Mode Styles (Optional) */
+    body.dark-theme {
+      background: linear-gradient(135deg, #2c3e50, #34495e);
+    }
+
+    body.dark-theme .container {
+      background: rgba(44, 62, 80, 0.9);
+    }
+    
+    body.dark-theme .title h1 {
+      color: var(--light);
+    }
+    
+    body.dark-theme .subtitle, 
+    body.dark-theme .desc, 
+    body.dark-theme .switch-label,
+    body.dark-theme .category-title {
+      color: #bbb;
+    }
+    
+    body.dark-theme .input-group input,
+    body.dark-theme .category-option,
+    body.dark-theme .history-item {
+      background: rgba(44, 62, 80, 0.8);
+      color: var(--light);
+    }
+    
+    body.dark-theme .input-group input::placeholder {
+      color: #888;
+    }
+
+    body.dark-theme .hasil h3,
+    body.dark-theme .history-title {
+      color: var(--light);
+    }
+
+    body.dark-theme .history-result {
+      color: var(--accent);
+    }
+
+    body.dark-theme .modal {
+      background: #34495e;
+    }
+
+    body.dark-theme .modal-title {
+      color: var(--light);
+    }
+  </style>
+</head>
+
+<body>
+  <!-- Confetti elements -->
+  <div class="confetti"></div>
+  <div class="confetti"></div>
+  <div class="confetti"></div>
+  <div class="confetti"></div>
+  <div class="confetti"></div>
+  <div class="confetti"></div>
+  <div class="confetti"></div>
+  <div class="confetti"></div>
+  <div class="confetti"></div>
+  <div class="confetti"></div>
+
+  <div class="container" id="container">
+    <div class="loader-container" id="loader">
+      <div class="loader"></div>
+    </div>
+    
+    <div class="main-form">
+      <div class="title">
+        <h1>Cek Khodam Online</h1>
+      </div>
+      <div class="subtitle">
+        Temukan khodam yang bersemayam dalam dirimu sekarang!
+      </div>
+      
+      <div class="input-group">
+        <input type="text" placeholder="Tuliskan Namamu" id="input" autocomplete="off" />
+        <span class="icon"><i class="fas fa-user"></i></span>
+      </div>
+      
+      <div class="category-selector">
+        <div class="category-title">Pilih Kategori:</div>
+        <div class="category-options">
+          <div class="category-option active" data-category="random">Random</div>
+          <div class="category-option" data-category="animal">Hewan</div>
+          <div class="category-option" data-category="ghost">Hantu</div>
+          <div class="category-option" data-category="funny">Lucu</div>
+        </div>
+      </div>
+      
+      <button class="btn" onclick="checkKhodam()" id="button-check">
+        <i class="fas fa-search"></i> Cek Khodam
+      </button>
+
+      <div class="action-buttons">
+        <button class="btn btn-secondary btn-sm" onclick="showHistory()" id="btn-history">
+          <i class="fas fa-history"></i> Riwayat
+        </button>
+        <button class="btn btn-secondary btn-sm" onclick="showSettings()" id="btn-settings">
+          <i class="fas fa-cog"></i> Pengaturan
+        </button>
+      </div>
+    </div>
+
+    <div class="hasil" id="hasil">
+      <h3>
+        <span id="name"></span>, Khodam yang ada dalam dirimu adalah:
+      </h3>
+      
+      <div class="character-image" id="character-image">
+        👻
+      </div>
+      
+      <div class="khodam-result" id="khodam-result">
+        <h1 id="khodam"></h1>
+        <div class="khodam-description" id="khodam-description"></div>
+        <div class="khodam-icon">
+          <i class="fas fa-ghost"></i>
+        </div>
+      </div>
+      
+      <div class="desc">
+        <p>Ini adalah khodam yang menyertaimu. Bagikan hasil ini dengan temanmu!</p>
+      </div>
+      
+      <div class="social">
+        <a href="#" onclick="shareToWhatsApp()"><i class="fab fa-whatsapp"></i></a>
+        <a href="#" onclick="shareToFacebook()"><i class="fab fa-facebook-f"></i></a>
+        <a href="#" onclick="shareToTwitter()"><i class="fab fa-twitter"></i></a>
+      </div>
+      
+      <div class="action-buttons">
+        <button class="btn btn-secondary" id="check-again" onclick="resetForm()">
+          <i class="fas fa-redo"></i> Cek Lagi
+        </button>
+        <button class="btn" id="save-result" onclick="saveResult()">
+          <i class="fas fa-save"></i> Simpan Hasil
+        </button>
+      </div>
+
+      <div class="history-section" id="history-section">
+        <div class="history-title">Riwayat Cek Khodam</div>
+        <div class="history-items" id="history-items">
+          <!-- Riwayat akan ditampilkan di sini -->
+        </div>
+        <button class="btn btn-sm" id="clear-history" onclick="clearHistory()">
+          <i class="fas fa-trash"></i> Hapus Riwayat
+        </button>
+      </div>
+    </div>
+  </div>
+  
+  <!-- Settings Modal -->
+  <div class="modal-overlay" id="settings-modal">
+    <div class="modal">
+      <button class="modal-close" onclick="closeModals()"><i class="fas fa-times"></i></button>
+      <div class="modal-title">Pengaturan</div>
+      <div class="modal-content">
+        <div class="switch-container">
+          <span class="switch-label">Mode Gelap</span>
+          <label class="switch">
+            <input type="checkbox" id="dark-mode-toggle" onchange="toggleDarkMode()">
+            <span class="slider"></span>
+          </label>
+        </div>
+        
+        <div class="switch-container">
+          <span class="switch-label">Suara Efek</span>
+          <label class="switch">
+            <input type="checkbox" id="sound-toggle" checked onchange="toggleSound()">
+            <span class="slider"></span>
+          </label>
+        </div>
+        
+        <div class="theme-selector">
+          <div class="theme-option theme-purple active" data-theme="purple" onclick="changeTheme('purple')"></div>
+          <div class="theme-option theme-blue" data-theme="blue" onclick="changeTheme('blue')"></div>
+          <div class="theme-option theme-green" data-theme="green" onclick="changeTheme('green')"></div>
+          <div class="theme-option theme-red" data-theme="red" onclick="changeTheme('red')"></div>
+          <div class="theme-option theme-dark" data-theme="dark" onclick="changeTheme('dark')"></div>
+        </div>
+      </div>
+      <button class="btn" onclick="closeModals()">Simpan</button>
+    </div>
+  </div>
+  
+  <!-- History Modal -->
+  <div class="modal-overlay" id="history-modal">
+    <div class="modal">
+      <button class="modal-close" onclick="closeModals()"><i class="fas fa-times"></i></button>
+      <div class="modal-title">Riwayat Khodam</div>
+      <div class="modal-content">
+        <div class="history-items" id="modal-history-items">
+          <!-- Riwayat akan ditampilkan di sini -->
+        </div>
+      </div>
+      <div class="action-buttons">
+        <button class="btn btn-secondary" onclick="clearHistory()">Hapus Semua</button>
+        <button class="btn" onclick="closeModals()">Tutup</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="footer">
+    Created with ❤️ by <a href="https://instagram.com/ekasyarifm" target="_blank">Eka Syarif Maulana</a>
+  </div>
+  
+  <!-- JavaScript -->
+  <script>
+    /**
+     * Cek Khodam Online
+     * Script oleh Eka Syarif Maulana
+     * Versi 2.0
+     */
+
+    // Konfigurasi
+    const CONFIG = {
+      animationDuration: 1500,      // Durasi animasi loading
+      soundEnabled: true,           // Status efek suara
+      storageKey: 'khodamHistory',  // Key untuk local storage
+      maxHistory: 10                // Jumlah maksimal riwayat
+    };
+
+    // Data khodam berdasarkan kategori
+    const KHODAM_DATA = {
+      // Kategori Random (kombinasi semua)
+      random: [
+        { text: "KHODAM MACAN ⚔️🐯", description: "Pemberani dan penuh kekuatan", icon: "🐯" },
+        { text: "KHODAM POCONG 👻", description: "Suka mengejutkan di saat tak terduga", icon: "👻" },
+        { text: "KHODAM GAMER PRO 🎮", description: "Jago main game tapi jarang mandi", icon: "🎮" },
+        { text: "KHODAM KUCING GARONG 🐱", description: "Suka tidur tapi tetap waspada", icon: "🐱" },
+        { text: "KHODAM KUNTILANAK 👩‍🦳", description: "Tertawa di malam hari tanpa sebab", icon: "👩‍🦳" },
+        { text: "KHODAM TIKTOKER 📱", description: "Selalu update konten viral", icon: "📱" },
+        { text: "KHODAM KADAL 🦎", description: "Pelolos handal dari masalah", icon: "🦎" },
+        { text: "KHODAM TUYUL 👶", description: "Duitmu selalu hilang tanpa sebab", icon: "👶" },
+        { text: "KHODAM PEDAGANG SOMAY 🍢", description: "Selalu lapar tengah malam", icon: "🍢" },
+        { text: "KHODAM JAILANGKUNG 🪑", description: "Kursi selalu bergerak sendiri", icon: "🪑" }
+      ],
+      
+      // Kategori Hewan
+      animal: [
+        { text: "KHODAM MACAN PUTIH 🐅", description: "Sosokmu gagah dan disegani", icon: "🐅" },
+        { text: "KHODAM KOMODO 🦎", description: "Jarang bicara tapi mematikan", icon: "🦎" },
+        { text: "KHODAM KUCING GARONG 🐱", description: "Suka tidur tapi tetap waspada", icon: "🐱" },
+        { text: "KHODAM BURUNG HANTU 🦉", description: "Aktif di malam hari, bijaksana", icon: "🦉" },
+        { text: "KHODAM ULAR COBRA 🐍", description: "Tenang namun berbisa", icon: "🐍" },
+        { text: "KHODAM CAPUNG 🦟", description: "Gesit dan susah ditangkap", icon: "🦟" },
+        { text: "KHODAM AYAM KATE 🐓", description: "Kecil tapi berani", icon: "🐓" },
+        { text: "KHODAM KECOA 🪳", description: "Survivalist sejati, susah mati", icon: "🪳" },
+        { text: "KHODAM MONYET SAKTI 🐒", description: "Jahil tapi cerdas", icon: "🐒" },
+        { text: "KHODAM KADAL BUNTING 🦎", description: "Banyak alasan ketika dimintai tolong", icon: "🦎" },
+        { text: "KHODAM BUAYA DARAT 🐊", description: "Ahli merayu dan memikat hati", icon: "🐊" },
+        { text: "KHODAM CICAK ALBINO ⚪", description: "Selalu mengawasi dari atas", icon: "🦎" },
+        { text: "KHODAM LELE DUMBO 🐟", description: "Pendiam tapi rakus", icon: "🐟" },
+        { text: "KHODAM JELANGKUNG 🐎", description: "Datang tak dijemput, pulang tak diantar", icon: "🐎" },
+        { text: "KHODAM SINGA BETINA 🦁", description: "Pemberani dan pelindung", icon: "🦁" }
+      ],
+      
+      // Kategori Hantu
+      ghost: [
+        { text: "KHODAM POCONG HIJAU 👻", description: "Lompat-lompat di atas kasurmu", icon: "👻" },
+        { text: "KHODAM KUNTILANAK 👩‍🦳", description: "Tertawa di malam hari tanpa sebab", icon: "👩‍🦳" },
+        { text: "KHODAM TUYUL BOTAK 👶", description: "Duitmu selalu hilang tanpa sebab", icon: "👶" },
+        { text: "KHODAM GENDERUWO 👹", description: "Suka menggoda saat sendiri", icon: "👹" },
+        { text: "KHODAM SUSTER NGESOT 👩‍⚕️", description: "Lantai kamarmu berbunyi di malam hari", icon: "👩‍⚕️" },
+        { text: "KHODAM WEWE GOMBEL 👵", description: "Suka anak kecil, terutama yang nakal", icon: "👵" },
+        { text: "KHODAM SUNDEL BOLONG 👩", description: "Rambutmu sering kusut tanpa sebab", icon: "👩" },
+        { text: "KHODAM HANTU JERUK PURUT 🧟‍♂️", description: "Kepalamu sering gatal tanpa sebab", icon: "🧟‍♂️" },
+        { text: "KHODAM KUYANG 🧙‍♀️", description: "Suka terbang di malam hari", icon: "🧙‍♀️" },
+        { text: "KHODAM LEAK 🧛", description: "Ahli ilmu hitam, pembawa sial", icon: "🧛" },
+        { text: "KHODAM PALASIK 🧚", description: "Bisa berubah wujud", icon: "🧚" },
+        { text: "KHODAM JENGLOT 🧠", description: "Kecil tapi menyeramkan", icon: "🧠" },
+        { text: "KHODAM SILUMAN HARIMAU 🐯", description: "Bisa hilang tiba-tiba", icon: "🐯" },
+        { text: "KHODAM BANASPATI 🔥", description: "Suka muncul sebagai api", icon: "🔥" },
+        { text: "KHODAM JAILANGKUNG 🪑", description: "Kursi selalu bergerak sendiri", icon: "🪑" }
+      ],
+      
+      // Kategori Lucu
+      funny: [
+        { text: "KHODAM TIKTOKER 📱", description: "Selalu update konten viral", icon: "📱" },
+        { text: "KHODAM GAMER WARNET 🎮", description: "Jago main game tapi jarang mandi", icon: "🎮" },
+        { text: "KHODAM PEDAGANG SOMAY 🍢", description: "Selalu lapar tengah malam", icon: "🍢" },
+        { text: "KHODAM TUKANG PARKIR 🅿️", description: "Uangmu selalu habis", icon: "🅿️" },
+        { text: "KHODAM DRIVER OJOL 🛵", description: "Selalu tahu jalan pintas", icon: "🛵" },
+        { text: "KHODAM SELEBGRAM KW 📸", description: "Suka selfie tapi followersnya bot semua", icon: "📸" },
+        { text: "KHODAM KASIR INDOMARET 🏪", description: "Suka tanya: \"Punya member?\"", icon: "🏪" },
+        { text: "KHODAM SATPAM PERUMAHAN 👮", description: "Tidur malam, tidur siang", icon: "👮" },
+        { text: "KHODAM CHEF WARTEG 👨‍🍳", description: "Ahli masak tapi makanannya itu-itu saja", icon: "👨‍🍳" },
+        { text: "KHODAM TUKANG BOHONG 🤥", description: "Alasan selalu kreatif dan tak masuk akal", icon: "🤥" },
+        { text: "KHODAM INFLUENCER CRYPTO 📉", description: "Saran investasinya selalu rugi", icon: "📉" },
+        { text: "KHODAM ANAK SULTAN 💰", description: "Uangmu selalu habis tanpa sebab", icon: "💰" },
+        { text: "KHODAM TUKANG GHOSTING 👻", description: "Suka menghilang tanpa kabar", icon: "👻" },
+        { text: "KHODAM PEMAIN SINETRON 🎭", description: "Hidupmu penuh drama", icon: "🎭" },
+        { text: "KHODAM GURU BK 📏", description: "Selalu tahu saat kamu berbuat salah", icon: "📏" }
+      ]
+    };
+
+    // Elemen DOM
+    const elements = {
+      input: document.getElementById('input'),
+      loader: document.getElementById('loader'),
+      container: document.getElementById('container'),
+      mainForm: document.querySelector('.main-form'),
+      hasil: document.getElementById('hasil'),
+      nameDisplay: document.getElementById('name'),
+      khodamDisplay: document.getElementById('khodam'),
+      khodamDescription: document.getElementById('khodam-description'),
+      characterImage: document.getElementById('character-image'),
+      khodamResult: document.getElementById('khodam-result'),
+      historySection: document.getElementById('history-section'),
+      historyItems: document.getElementById('history-items'),
+      modalHistoryItems: document.getElementById('modal-history-items'),
+      settingsModal: document.getElementById('settings-modal'),
+      historyModal: document.getElementById('history-modal'),
+      darkModeToggle: document.getElementById('dark-mode-toggle'),
+      soundToggle: document.getElementById('sound-toggle'),
+      categoryOptions: document.querySelectorAll('.category-option')
+    };
+
+    // Efek suara
+    const sounds = {
+      click: new Audio('https://cdn.pixabay.com/download/audio/2021/08/04/audio_0625c1539c.mp3?filename=click-21156.mp3'),
+      success: new Audio('https://cdn.pixabay.com/download/audio/2021/08/04/audio_12b0c7443c.mp3?filename=success-1-6297.mp3'),
+      error: new Audio('https://cdn.pixabay.com/download/audio/2022/03/10/audio_c8a41fdec9.mp3?filename=error-126627.mp3')
+    };
+
+    // Untuk mematikan suara jika dibutuhkan
+    for (const sound in sounds) {
+      sounds[sound].volume = 0.5;
+    }
+
+    /**
+     * Fungsi inisialisasi aplikasi
+     */
+    function initApp() {
+      // Tambahkan event listener untuk input
+      elements.input.addEventListener('keypress', function(event) {
+        if (event.key === 'Enter') {
+          event.preventDefault();
+          checkKhodam();
+        }
+      });
+      
+      // Tambahkan event listener untuk kategori
+      elements.categoryOptions.forEach(option => {
+        option.addEventListener('click', function() {
+          // Hapus kelas aktif dari semua opsi
+          elements.categoryOptions.forEach(opt => opt.classList.remove('active'));
+          // Tambahkan kelas aktif ke opsi yang dipilih
+          this.classList.add('active');
+          
+          // Putar suara klik
+          playSound('click');
+        });
+      });
+      
+      // Muat pengaturan tersimpan
+      loadSettings();
+      
+      // Muat riwayat
+      loadHistory();
+      
+      // Focus input
+      elements.input.focus();
+    }
+
+    /**
+     * Memeriksa khodam berdasarkan input pengguna
+     */
+    function checkKhodam() {
+      const name = elements.input.value.trim();
+      
+      if (!name) {
+        showInputError();
+        playSound('error');
+        return;
+      }
+      
+      // Tampilkan loader
+      elements.loader.style.display = 'flex';
+      
+      // Dapatkan kategori yang dipilih
+      const selectedCategory = document.querySelector('.category-option.active').dataset.category;
+      
+      // Simulasi proses 
+      setTimeout(() => {
+        const result = generateKhodamResult(name, selectedCategory);
+        displayResult(result);
+        
+        // Simpan ke riwayat
+        addToHistory(name, result.text);
+        
+        // Putar suara sukses
+        playSound('success');
+        
+        // Aktifkan efek konfeti
+        activateConfetti();
+      }, CONFIG.animationDuration);
+    }
+
+    /**
+     * Menampilkan animasi error pada input
+     */
+    function showInputError() {
+      elements.input.classList.add('shake-animation');
+      elements.input.style.borderColor = 'var(--danger)';
+      
+      setTimeout(() => {
+        elements.input.classList.remove('shake-animation');
+        elements.input.style.borderColor = 'transparent';
+      }, 500);
+      
+      elements.input.focus();
+    }
+
+    /**
+     * Menghasilkan khodam berdasarkan nama dan kategori
+     */
+    function generateKhodamResult(name, category) {
+      // Dapatkan data khodam untuk kategori tertentu
+      const khodamList = KHODAM_DATA[category] || KHODAM_DATA.random;
+      
+      // Gunakan nama sebagai seed untuk mendapatkan hasil konsisten untuk nama yang sama
+      const seed = simpleHash(name);
+      const index = seed % khodamList.length;
+      
+      return khodamList[index];
+    }
+
+    /**
+     * Simple hash function untuk mengubah string menjadi angka
+     */
+    function simpleHash(str) {
+      let hash = 0;
+      for (let i = 0; i < str.length; i++) {
+        hash = (hash + str.charCodeAt(i) * (i + 1)) % 10000;
+      }
+      return hash;
+    }
+
+    /**
+     * Menampilkan hasil khodam
+     */
+    function displayResult(result) {
+      // Atur nama dan khodam
+      elements.nameDisplay.textContent = elements.input.value.trim();
+      elements.khodamDisplay.textContent = result.text;
+      elements.khodamDescription.textContent = result.description || '';
+      elements.characterImage.textContent = result.icon || '👻';
+      
+      // Terapkan kelas hasil berdasarkan kategori
+      elements.khodamResult.className = 'khodam-result';
+      
+      // Tentukan warna background berdasarkan kategori
+      const activeCategory = document.querySelector('.category-option.active').dataset.category;
+      if (activeCategory !== 'random') {
+        elements.khodamResult.classList.add(`result-${activeCategory}`);
+      }
+      
+      // Sembunyikan form, tampilkan hasil
+      elements.mainForm.style.display = 'none';
+      elements.hasil.style.display = 'block';
+      elements.hasil.classList.add('fadeIn');
+      
+      // Sembunyikan loader
+      elements.loader.style.display = 'none';
+    }
+
+    /**
+     * Reset formulir ke keadaan awal
+     */
+    function resetForm() {
+      elements.mainForm.style.display = 'block';
+      elements.hasil.style.display = 'none';
+      elements.hasil.classList.remove('fadeIn');
+      elements.historySection.style.display = 'none';
+      elements.input.value = '';
+      elements.input.focus();
+      
+      // Putar suara klik
+      playSound('click');
+    }
+
+    /**
+     * Menampilkan modal pengaturan
+     */
+    function showSettings() {
+      elements.settingsModal.style.display = 'flex';
+      playSound('click');
+    }
+
+    /**
+     * Menampilkan riwayat khodam
+     */
+    function showHistory() {
+      loadHistory();
+      elements.historyModal.style.display = 'flex';
+      playSound('click');
+    }
+
+    /**
+     * Menutup semua modal
+     */
+    function closeModals() {
+      elements.settingsModal.style.display = 'none';
+      elements.historyModal.style.display = 'none';
+      playSound('click');
+    }
+
+    /**
+     * Toggle mode gelap
+     */
+    function toggleDarkMode() {
+      document.body.classList.toggle('dark-theme');
+      saveSettings();
+      playSound('click');
+    }
+
+    /**
+     * Toggle suara
+     */
+    function toggleSound() {
+      CONFIG.soundEnabled = elements.soundToggle.checked;
+      saveSettings();
+      
+      // Putar suara klik jika diaktifkan
+      if (CONFIG.soundEnabled) {
+        sounds.click.play();
+      }
+    }
+
+    /**
+     * Putar suara jika diaktifkan
+     */
+    function playSound(soundName) {
+      if (CONFIG.soundEnabled && sounds[soundName]) {
+        sounds[soundName].currentTime = 0;
+        sounds[soundName].play().catch(e => console.log('Error playing sound:', e));
+      }
+    }
+
+    /**
+     * Mengaktifkan animasi konfeti
+     */
+    function activateConfetti() {
+      const confetti = document.querySelectorAll('.confetti');
+      
+      confetti.forEach(item => {
+        item.style.opacity = '1';
+      });
+      
+      setTimeout(() => {
+        confetti.forEach(item => {
+          item.style.opacity = '0';
+        });
+      }, 5000);
+    }
+
+    /**
+     * Mengganti tema aplikasi
+     */
+    function changeTheme(theme) {
+      // Hapus kelas aktif dari semua opsi tema
+      document.querySelectorAll('.theme-option').forEach(option => {
+        option.classList.remove('active');
+      });
+      
+      // Tambahkan kelas aktif ke tema yang dipilih
+      document.querySelector(`.theme-option.theme-${theme}`).classList.add('active');
+      
+      // Terapkan tema
+      document.documentElement.style.setProperty('--primary', getThemeColor(theme, 'primary'));
+      document.documentElement.style.setProperty('--primary-dark', getThemeColor(theme, 'primary-dark'));
+      document.documentElement.style.setProperty('--secondary', getThemeColor(theme, 'secondary'));
+      
+      // Simpan pengaturan
+      saveSettings();
+      
+      // Putar suara klik
+      playSound('click');
+    }
+
+    /**
+     * Mendapatkan warna tema berdasarkan tema dan jenis
+     */
+    function getThemeColor(theme, type) {
+      const colors = {
+        purple: {
+          primary: '#8e44ad',
+          'primary-dark': '#7d3c98',
+          secondary: '#3498db'
+        },
+        blue: {
+          primary: '#3498db',
+          'primary-dark': '#2980b9',
+          secondary: '#1abc9c'
+        },
+        green: {
+          primary: '#2ecc71',
+          'primary-dark': '#27ae60',
+          secondary: '#f1c40f'
+        },
+        red: {
+          primary: '#e74c3c',
+          'primary-dark': '#c0392b',
+          secondary: '#f39c12'
+        },
+        dark: {
+          primary: '#34495e',
+          'primary-dark': '#2c3e50',
+          secondary: '#7f8c8d'
+        }
+      };
+      
+      return colors[theme]?.[type] || colors.purple[type];
+    }
+
+    /**
+     * Menyimpan pengaturan ke local storage
+     */
+    function saveSettings() {
+      const settings = {
+        darkMode: document.body.classList.contains('dark-theme'),
+        soundEnabled: CONFIG.soundEnabled,
+        theme: document.querySelector('.theme-option.active').dataset.theme
+      };
+      
+      localStorage.setItem('khodamSettings', JSON.stringify(settings));
+    }
+
+    /**
+     * Memuat pengaturan dari local storage
+     */
+    function loadSettings() {
+      const settings = JSON.parse(localStorage.getItem('khodamSettings'));
+      
+      if (settings) {
+        // Terapkan mode gelap
+        if (settings.darkMode) {
+          document.body.classList.add('dark-theme');
+          elements.darkModeToggle.checked = true;
+        }
+        
+        // Terapkan pengaturan suara
+        CONFIG.soundEnabled = settings.soundEnabled !== undefined ? settings.soundEnabled : true;
+        elements.soundToggle.checked = CONFIG.soundEnabled;
+        
+        // Terapkan tema
+        if (settings.theme) {
+          changeTheme(settings.theme);
+        }
+      }
+    }
+
+    /**
+     * Menyimpan hasil ke riwayat
+     */
+    function saveResult() {
+      const name = elements.nameDisplay.textContent;
+      const khodam = elements.khodamDisplay.textContent;
+      
+      addToHistory(name, khodam);
+      
+      alert('Hasil berhasil disimpan ke riwayat!');
+      playSound('success');
+    }
+
+    /**
+     * Menambahkan hasil ke riwayat
+     */
+    function addToHistory(name, khodam) {
+      let history = JSON.parse(localStorage.getItem(CONFIG.storageKey)) || [];
+      
+      // Tambahkan item baru ke awal array
+      history.unshift({
+        name,
+        khodam,
+        timestamp: new Date().toISOString()
+      });
+      
+      // Batasi jumlah riwayat
+      if (history.length > CONFIG.maxHistory) {
+        history = history.slice(0, CONFIG.maxHistory);
+      }
+      
+      // Simpan ke local storage
+      localStorage.setItem(CONFIG.storageKey, JSON.stringify(history));
+      
+      // Perbarui tampilan riwayat
+      loadHistory();
+    }
+
+    /**
+     * Memuat riwayat dari local storage
+     */
+    function loadHistory() {
+      const history = JSON.parse(localStorage.getItem(CONFIG.storageKey)) || [];
+      
+      // Kosongkan container riwayat
+      elements.historyItems.innerHTML = '';
+      elements.modalHistoryItems.innerHTML = '';
+      
+      if (history.length === 0) {
+        const emptyMessage = document.createElement('div');
+        emptyMessage.className = 'history-item';
+        emptyMessage.innerHTML = '<em>Belum ada riwayat</em>';
+        
+        elements.historyItems.appendChild(emptyMessage.cloneNode(true));
+        elements.modalHistoryItems.appendChild(emptyMessage);
+        return;
+      }
+      
+      // Tambahkan setiap item riwayat ke container
+      history.forEach(item => {
+        const historyItem = document.createElement('div');
+        historyItem.className = 'history-item';
+        historyItem.innerHTML = `
+          <span class="history-name">${item.name}</span>
+          <span class="history-result">${item.khodam}</span>
+        `;
+        
+        elements.historyItems.appendChild(historyItem.cloneNode(true));
+        elements.modalHistoryItems.appendChild(historyItem);
+      });
+    }
+
+    /**
+     * Menghapus semua riwayat
+     */
+    function clearHistory() {
+      if (confirm('Yakin ingin menghapus semua riwayat?')) {
+        localStorage.removeItem(CONFIG.storageKey);
+        loadHistory();
+        playSound('click');
+      }
+    }
+
+    /**
+     * Membagikan hasil ke WhatsApp
+     */
+    function shareToWhatsApp() {
+      const name = elements.nameDisplay.textContent;
+      const khodam = elements.khodamDisplay.textContent;
+      const message = `🔮 *Cek Khodam Online* 🔮\n\nNama: *${name}*\nKhodam: *${khodam}*\n\nCek khodam kamu juga di sini: [Website URL]`;
+      
+      window.open(`https://wa.me/?text=${encodeURIComponent(message)}`);
+      playSound('click');
+    }
+
+    /**
+     * Membagikan hasil ke Facebook
+     */
+    function shareToFacebook() {
+      window.open(`https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(window.location.href)}`);
+      playSound('click');
+    }
+
+    /**
+     * Membagikan hasil ke Twitter
+     */
+    function shareToTwitter() {
+      const name = elements.nameDisplay.textContent;
+      const khodam = elements.khodamDisplay.textContent;
+      const message = `🔮 Cek Khodam Online 🔮\n\nNama: ${name}\nKhodam: ${khodam}\n\nCek khodam kamu juga!`;
+      
+      window.open(`https://twitter.com/intent/tweet?text=${encodeURIComponent(message)}&url=${encodeURIComponent(window.location.href)}`);
+      playSound('click');
+    }
+
+    // Inisialisasi aplikasi setelah DOM dimuat
+    document.addEventListener('DOMContentLoaded', initApp);
+  </script>
+</body>
+</html>
