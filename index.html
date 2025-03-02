@@ -1510,36 +1510,40 @@
     }
 
     /**
-     * Membagikan hasil ke WhatsApp
-     */
-    function shareToWhatsApp() {
-      const name = elements.nameDisplay.textContent;
-      const khodam = elements.khodamDisplay.textContent;
-      const message = `🔮 *Cek Khodam Online* 🔮\n\nNama: *${name}*\nKhodam: *${khodam}*\n\nCek khodam kamu juga di sini: [Website URL]`;
-      
-      window.open(`https://wa.me/?text=${encodeURIComponent(message)}`);
-      playSound('click');
-    }
+ * Membagikan hasil ke WhatsApp
+ */
+function shareToWhatsApp() {
+    const name = elements.nameDisplay.textContent;
+    const khodam = elements.khodamDisplay.textContent;
+    const message = `🔮 *Cek Khodam Online* 🔮\n\nNama: *${name}*\nKhodam: *${khodam}*\n\nCek khodam kamu juga di sini: https://dresar.github.io/teskodam`;
+    
+    // Membuka WhatsApp dengan pesan yang telah disiapkan
+    window.open(`https://wa.me/?text=${encodeURIComponent(message)}`);
+    playSound('click');
+}
 
-    /**
-     * Membagikan hasil ke Facebook
-     */
-    function shareToFacebook() {
-      window.open(`https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(window.location.href)}`);
-      playSound('click');
-    }
+/**
+ * Membagikan hasil ke Facebook
+ */
+function shareToFacebook() {
+    const url = encodeURIComponent('https://dresar.github.io/teskodam');
+    // Membuka Facebook dengan URL yang ingin dibagikan
+    window.open(`https://www.facebook.com/sharer/sharer.php?u=${url}`);
+    playSound('click');
+}
 
-    /**
-     * Membagikan hasil ke Twitter
-     */
-    function shareToTwitter() {
-      const name = elements.nameDisplay.textContent;
-      const khodam = elements.khodamDisplay.textContent;
-      const message = `🔮 Cek Khodam Online 🔮\n\nNama: ${name}\nKhodam: ${khodam}\n\nCek khodam kamu juga!`;
-      
-      window.open(`https://twitter.com/intent/tweet?text=${encodeURIComponent(message)}&url=${encodeURIComponent(window.location.href)}`);
-      playSound('click');
-    }
+/**
+ * Membagikan hasil ke Twitter
+ */
+function shareToTwitter() {
+    const name = elements.nameDisplay.textContent;
+    const khodam = elements.khodamDisplay.textContent;
+    const message = `🔮 Cek Khodam Online 🔮\n\nNama: ${name}\nKhodam: ${khodam}\n\nCek khodam kamu juga!`;
+
+    // Membuka Twitter dengan pesan yang telah disiapkan dan URL
+    window.open(`https://twitter.com/intent/tweet?text=${encodeURIComponent(message)}&url=https://dresar.github.io/teskodam`);
+    playSound('click');
+}
 
     // Inisialisasi aplikasi setelah DOM dimuat
     document.addEventListener('DOMContentLoaded', initApp);
